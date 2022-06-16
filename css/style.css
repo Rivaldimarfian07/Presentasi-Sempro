@@ -320,7 +320,6 @@ h3.profesi
   color: var(--text-black-700);
 }
 
-
 .home .home-img
 {
   flex: 0 0 40%;
@@ -417,6 +416,72 @@ h3.profesi
   color: var(--text-black-700);
   margin-left: 4px;
   display: flex;
+}
+/* latarbelakang styling */
+.latarbelakang .latarbelakang-content
+{
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+.latarbelakang .latarbelakang-content .latarbelakang-text
+{
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+.latarbelakang .latarbelakang-content .latarbelakang-text p
+{
+  text-align: justify;
+  font-size: 20px;
+  line-height: 25px;
+  color: var(--text-black-700);
+  font-family: 'JetBrains Mono';
+}
+/* tujuan */
+.tujuan .tujuan-item 
+{
+  margin-bottom: 30px;
+  flex: 0 0 33.33%;
+  max-width: 33.33%;
+}
+.tujuan .tujuan-item .tujuan-item-inner
+{
+  background-color: var(--bg-black-100);
+  border: 1px solid var(--bg-black-50);
+  border-radius: 10px;
+  padding: 30px 15px;
+  text-align: center;
+  transition: all 0.3s ease;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+}
+.tujuan .tujuan-item .tujuan-item-inner:hover
+{
+  box-shadow: 0 0 20px var(--skin-color);
+}
+.tujuan .tujuan-item .tujuan-item-inner .icon
+{
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto 30px;
+  text-align: center;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.tujuan .tujuan-item .tujuan-item-inner .icon .fa-solid
+{
+  color: var(--skin-color);
+  font-size: 40px;
+  line-height: 60px;
 }
 
 footer {
