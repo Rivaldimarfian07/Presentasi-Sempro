@@ -1,3 +1,3 @@
-# Myportofolio
-portofolio (On-going)
-https://rivaldimarfian.github.io/Myportofolio/
+# Presentasi Seminar Proposal
+Presentasi sempro (finished)
+(https://rivaldimarfian.github.io/Presentasi-Sempro/)
