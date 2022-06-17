@@ -549,7 +549,7 @@ footer p{
 
 /* responsive */
 
-@media screen and (max-width : 1199px)
+@media(max-width : 1199px)
 {
   .aside
   {
@@ -584,7 +584,9 @@ footer p{
 
 @media (max-width :991px)
 {
-  .keaslianpenelitian,.keaslianpenelitian-content,
+  .keaslianpenelitian,
+  .keaslianpenelitian-content,
+  .keasli
   .tujuan .tujuan-item
   {
     flex: 0 0 50%;
@@ -603,25 +605,18 @@ footer p{
 
 @media (max-width : 767px)
 {
-  .keaslianpenelitian .keaslianpenelitian-content
-  .tujuan .tujuan-item,
+  .keaslianpenelitian ,
+  .keaslianpenelitian-content,
+  .keaslianpenelitian-text,
+  .tujuan .tujuan-item
+  {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
   .about .about-content,
   .about .about-content .personal-info
   {
     flex: 0 0 100%;
     max-width:  100%;
-  }
-}
-
-@media screen and (max-width: 513px) 
-{
-  .home .home-info
-  {
-    flex: 0 0 100%;
-    max-width: 100%;
-  }
-  .home .home-img
-  {
-    display: none;
   }
 }
