@@ -431,10 +431,10 @@ h3.profesi
 .latarbelakang .latarbelakang-content .latarbelakang-text p
 {
   text-align: justify;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 25px;
   color: var(--text-black-700);
-  font-family: 'JetBrains Mono';
+  font-family: 'poppins';
 }
 /* tujuan */
 .tujuan .container
@@ -447,6 +447,7 @@ h3.profesi
   flex: 0 0 33.33%;
   max-width: 33.33%;
   display: flex;
+  font-family: 'poppins' ;
 }
 .tujuan .tujuan-item .tujuan-item-inner
 {
@@ -530,7 +531,7 @@ h3.profesi
   font-size: 20px;
   line-height: 25px;
   color: var(--text-black-700);
-  font-family: 'JetBrains Mono';
+  font-family: 'poppins';
 }
 
 
