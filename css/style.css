@@ -113,8 +113,9 @@ ul{
 
 .btn
 {
-  font-size: 16px;
-  font-weight: 500;
+  
+  font-size: 18px;
+  font-weight: 600;
   padding: 12px 35px;
   color: #EEEEEE;
   border-radius: 40px;
@@ -134,11 +135,11 @@ ul{
 }
 .btn:hover
 {
-  transform: scale(1.05);
-  -webkit-transform: scale(1.05);
-  -moz-transform: scale(1.05);
-  -ms-transform: scale(1.05);
-  -o-transform: scale(1.05);
+  transform: scale(1.20);
+  -webkit-transform: scale(1.20);
+  -moz-transform: scale(1.20);
+  -ms-transform: scale(1.20);
+  -o-transform: scale(1.20);
 }
 
 /* aside styling */
@@ -315,7 +316,8 @@ h3.profesi
   color: var(--skin-color);
 }
 .home-info p {
-  margin-bottom: 70px;
+  text-align: justify;
+  margin-bottom: 40px;
   font-size: 20px;
   color: var(--text-black-700);
 }
@@ -356,12 +358,12 @@ h3.profesi
 .home .home-img img 
 {
   margin: auto;
-  border-radius: 5px;
+  border-radius: 75px;
   height: 400px;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  -ms-border-radius: 5px;
-  -o-border-radius: 5px;
+  -webkit-border-radius: 75px;
+  -moz-border-radius: 75px;
+  -ms-border-radius: 75px;
+  -o-border-radius: 75px;
 }
 /* About styling start */
 .about .about-content
