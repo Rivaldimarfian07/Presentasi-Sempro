@@ -316,7 +316,7 @@ h3.profesi
   color: var(--skin-color);
 }
 .home-info p {
-  text-align: justify;
+  text-align: center;
   margin-bottom: 40px;
   font-size: 20px;
   color: var(--text-black-700);
