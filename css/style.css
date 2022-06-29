@@ -217,7 +217,7 @@ ul{
 }
 .aside .logo a span 
 {
-  font-family: 'Clicker Script', cursive;
+  font-family: 'poppins', cursive;
   font-size: 40px;
 }
 .aside .logo a::before
@@ -371,7 +371,7 @@ h3.hello
 }
 h3.hello span
 {
-  font-family: 'Clicker Script',cursive;
+  font-family:'poppins';
   font-size: 25px;
   font-weight: 700;
   color: var(--skin-color);
@@ -500,7 +500,7 @@ h3.profesi
 .about .about-content .personal-info .buttons .btn
 {
     margin-right: 15px;
-    margin-top: 10px;
+    margin-top: 15px;
 }
 .about .about-content .skills
 {
@@ -508,7 +508,57 @@ h3.profesi
     max-width: 40%;
     margin-top: 40px;
 }
-
+.about .about-content .skills .skill-item
+{
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+.about .about-content .skills .skill-item h5
+{
+    line-height: 40px;
+    font-weight: 600;
+    font-size: 16px;
+    color: var(--bg-black-100);
+    text-transform: capitalize;
+}
+.about .about-content .skills .skill-item .progress
+{
+    background-color: var(--bg-black-100);
+    height: 7px;
+    border-radius: 4px;
+    width: 100%;
+    position: relative;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+.about .about-content .skills .skill-item
+{
+  margin-bottom: 25px;
+}
+.about .about-content .skills .skill-item .progress .progress-in
+{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    border-radius: 4px;
+    background-color: var(--skin-color);
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+.about .about-content .skills .skill-item .skill-percent
+{
+    position: absolute;
+    right: 0;
+    color: var(--bg-black-100);
+    top: -40px;
+    font-weight: 400;
+    line-height: 40px;
+}
 /* latarbelakang styling */
 .latarbelakang .latarbelakang-content
 {
