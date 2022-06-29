@@ -120,7 +120,7 @@ ul{
 {
   content: '';
   height: 4px;
-  width: 100px;
+  width: 125px;
   background-color: var(--skin-color);
   position: absolute;
   top: 100%;
@@ -130,7 +130,7 @@ ul{
 {
   content: '';
   height: 4px;
-  width: 50px;
+  width: 65px;
   background-color: var(--skin-color);
   position: absolute;
   top: 100%;
@@ -480,7 +480,7 @@ h3.profesi
 }
 .about .about-content .personal-info .info-item p
 {
-  font-weight: 500;
+  font-weight: 600;
   padding: 10px 0;
   font-size: 16px;
   color: var(--text-black-700);
@@ -488,11 +488,27 @@ h3.profesi
 }
 .about .about-content .personal-info .info-item span
 {
-  font-weight: 300;
+  font-weight: 400;
   color: var(--text-black-700);
   margin-left: 4px;
-  display: flex;
+  display: inline-block;
 }
+.about .about-content .personal-info .buttons
+{
+    margin-top: 30px;
+}
+.about .about-content .personal-info .buttons .btn
+{
+    margin-right: 15px;
+    margin-top: 10px;
+}
+.about .about-content .skills
+{
+    flex: 0 0 40%;
+    max-width: 40%;
+    margin-top: 40px;
+}
+
 /* latarbelakang styling */
 .latarbelakang .latarbelakang-content
 {
@@ -625,29 +641,12 @@ footer p{
 
 
 /* responsive */
-
-@media(max-width : 1199px)
+@media (max-width :1199px)
 {
   .section .container
   {
-      padding-top: 70px;
+      padding-top: 75px;
   }
-  .aside
-  {
-      left: -270px;
-  }
-  .main-content
-  {
-    padding-left: 0;
-  }
-  .about .about-content .personal-info .info-item p span
-  {
-    display: block;
-    margin-left: 0;
-  }
-}
-@media (max-width :1199px)
-{
   .aside
   {
     left: -270px;
@@ -680,11 +679,11 @@ footer p{
   }
 }
 
-@media (max-width :991px)
+@media (max-width : 991px)
 {
   .keaslianpenelitian,
   .keaslianpenelitian-content,
-  .keasli
+  .keaslianpenelitian-text,
   .tujuan .tujuan-item
   {
     flex: 0 0 50%;
