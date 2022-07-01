@@ -8,7 +8,6 @@
     --text-black-900: #393E46;
     --text-black-700: #EEEEEE ;
 }
-
 body
 {
   line-height: 1.5;
@@ -676,20 +675,6 @@ h3.profesi
   font-family: 'poppins';
 }
 
-
-footer{
-  width:  100%;
-  background: #00ADB5;
-  display: flex;
-  font-size: 15px;
-  color: aliceblue;
-}
-footer p{
-  padding: 0 60px;
-}
-
-
-
 /* responsive */
 @media (max-width :1199px)
 {
@@ -752,16 +737,14 @@ footer p{
 
 @media (max-width : 767px)
 {
-  .keaslianpenelitian ,
+  .keaslianpenelitian,
   .keaslianpenelitian-content,
   .keaslianpenelitian-text,
-  .tujuan .tujuan-item
-  {
-    flex: 0 0 100%;
-    max-width: 100%;
-  }
+  .tujuan .tujuan-item,
   .about .about-content,
+  .about .about-content .skills,
   .about .about-content .personal-info
+
   {
     flex: 0 0 100%;
     max-width:  100%;
