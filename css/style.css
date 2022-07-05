@@ -587,13 +587,22 @@ h3.profesi
 }
 
 /* rumusan masalah styling */
+.rumusanmasalah .container .kolom
+{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-left: -15px;
+  margin-right: -15px;
+  position: relative;
+}
 .card {
   background: #191c29;
   width: var(--card-width);
   height: var(--card-height);
-  padding: 3px;
+  padding: 15px;
   position: relative;
-  border-radius: 6px;
+  border-radius: 30px;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -602,6 +611,12 @@ h3.profesi
   color: rgb(88 199 250 / 0%);
   cursor: pointer;
   font-family: cursive;
+  margin-left: 20px;
+  margin-right: 20px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
 }
 .card:hover {
   color: rgb(88 199 250 / 100%);
