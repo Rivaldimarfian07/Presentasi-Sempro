@@ -905,7 +905,19 @@ header:after, #timeline .timeline-item:after, header:before, #timeline .timeline
   color: var(--text-black-700);
   font-family: 'poppins';
 }
+footer{
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+  background: #00ADB5;
+  display: flex;
+  font-size: 15px;
+  color: aliceblue;
 
+}
+footer p{
+  padding: 0 60px;
+}
 /* responsive */
 @media (max-width :1199px)
 {
